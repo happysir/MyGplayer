@@ -2,13 +2,14 @@ package com.next.fileexplorer;
 
 import java.util.ArrayList;
 
-
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.media.AudioManager;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.provider.MediaStore.Images;
@@ -38,6 +39,9 @@ public class VideoList extends Activity {
         super.onCreate(savedInstanceState);  
         setContentView(R.layout.filelist);  
         
+
+		 
+		
         videoListView=(ListView)findViewById(R.id.videofile);
         init();  
         

@@ -12,25 +12,29 @@ public final class R {
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
-        public static final int video_brightness_bg=0x7f020001;
-        public static final int video_num_bg=0x7f020002;
-        public static final int video_num_front=0x7f020003;
-        public static final int video_volumn_bg=0x7f020004;
+        public static final int menu_checkupdate=0x7f020001;
+        public static final int menu_more=0x7f020002;
+        public static final int menu_sync=0x7f020003;
+        public static final int video_brightness_bg=0x7f020004;
+        public static final int video_num_bg=0x7f020005;
+        public static final int video_num_front=0x7f020006;
+        public static final int video_volumn_bg=0x7f020007;
     }
     public static final class id {
-        public static final int file_name_item=0x7f07000b;
-        public static final int file_path_item=0x7f07000c;
-        public static final int icon=0x7f070009;
-        public static final int menu_settings=0x7f07000d;
+        public static final int file_name_item=0x7f07000c;
+        public static final int file_path_item=0x7f07000d;
+        public static final int icon=0x7f07000a;
+        public static final int menu_settings=0x7f07000e;
         public static final int more_btn=0x7f070002;
         public static final int operation_bg=0x7f070006;
         public static final int operation_full=0x7f070007;
-        public static final int operation_percent=0x7f070008;
+        public static final int operation_percent=0x7f070009;
         public static final int operation_volume_brightness=0x7f070005;
         public static final int refresh_btn=0x7f070000;
         public static final int search_btn=0x7f070001;
         public static final int surface_view=0x7f070004;
-        public static final int videoName=0x7f07000a;
+        public static final int videoName=0x7f07000b;
+        public static final int video_schedule=0x7f070008;
         public static final int videofile=0x7f070003;
     }
     public static final class layout {

@@ -5,32 +5,27 @@
     android:orientation="vertical" >
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal" >
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="文件夹" />
 
         <Button
             android:id="@+id/refresh_btn"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="涮新" />
+            android:layout_height="wrap_content"
+            android:background="@drawable/menu_sync"/>
 
         <Button
             android:id = "@+id/search_btn"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="打开" />
+            android:layout_height="wrap_content"
+            android:background="@drawable/menu_checkupdate"/>
 
         <Button
             android:id="@+id/more_btn"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="设置" />
+            android:layout_height="wrap_content"
+            android:background="@drawable/menu_more"/>
     </LinearLayout>
 
     <ListView

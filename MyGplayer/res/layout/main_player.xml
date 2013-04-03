@@ -42,6 +42,14 @@
                 android:layout_gravity="left"
                 android:src="@drawable/video_num_bg" />
 
+            <TextView
+                android:id="@+id/video_schedule"
+                android:layout_width="94dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="50sp"
+                android:visibility="gone" />
+
             <ImageView
                 android:id="@+id/operation_percent"
                 android:layout_width="0dip"
